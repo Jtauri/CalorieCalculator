@@ -46,23 +46,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.toSize
 import com.example.caloriecalculator.ui.theme.CalorieCalculatorTheme
 
-
-/*
-Walkthrough. Calories
-During this walkthrough you will create an app that calculates calorie consumption
-based on weight, gender, and physical activity. Final app looks as follows:
-Learning objectives are:
-- Divide app and UI into multiple composables/components
-- OutLinedTextField
-- RadioButton
-- DropDownList
-- Hoisting state up
-- Support portrait mode only
-Start by launching Android Studio and create new empty compose activity. Create
-composable component for the app under name CalorieScreen. This composable will
-use other composables to display UI and will hold all the information/data required by
-the application. */
-
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
